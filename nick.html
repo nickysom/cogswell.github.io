@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hat Adder/Remover</title>
+<link rel="stylesheet" type="text/css" href="nick.css">
+</head>
+<body>
+<div id="container">
+  <div id="image-container">
+    <img id="hat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cowboy_hat_icon.svg/1200px-Cowboy_hat_icon.svg.png" alt="hat">
+    <img id="image" src="https://via.placeholder.com/400" alt="image">
+  </div>
+  <div>
+    <button id="add-hat">Add Hat</button>
+    <button id="remove-hat">Remove Hat</button>
+  </div>
+</div>
+
+<script>
+  const hatImage = document.getElementById('hat');
+  const addHatButton = document.getElementById('add-hat');
+  const removeHatButton = document.getElementById('remove-hat');
+
+  addHatButton.addEventListener('click', () => {
+    hatImage.style.display = 'inline-block';
+  });
+
+  removeHatButton.addEventListener('click', () => {
+    hatImage.style.display = 'none';
+  });
+</script>
+</body>
+</html>
