@@ -23,9 +23,8 @@ body {
   position: absolute;
   top: 10%; /* Adjust vertical position */
   left: 50%;
-  transform: translateX(-50%);
-  width: 80vw; /* Set width relative to viewport width */
-  max-width: 200px; /* Set a maximum width */
+  transform: translate(-50%, -50%);
+  max-width: 40%;
   display: none;
 }
 
