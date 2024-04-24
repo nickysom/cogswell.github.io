@@ -24,9 +24,11 @@ body {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 20%; /* Adjust this value to make the image smaller */
+  max-width: 100%; /* Remove percentage value */
+  width: 200px; /* Set an explicit width */
   display: none;
 }
+
 
 button {
   margin: 0 10px;
