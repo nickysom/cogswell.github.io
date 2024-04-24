@@ -21,7 +21,7 @@ body {
 
 #hat {
   position: absolute;
-  top: 80%; /* Adjust vertical position */
+  top: 60%; /* Adjust vertical position */
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 40%;
