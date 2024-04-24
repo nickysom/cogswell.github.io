@@ -14,18 +14,18 @@ body {
   text-align: center;
 }
 
-#image-container {
-  position: relative;
-  margin-bottom: 20px;
+#image {
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  height: auto; /* Allow the height to adjust proportionally */
 }
 
 #hat {
   position: absolute;
-  top: 20%;
+  top: 10%; /* Adjust vertical position */
   left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%; /* Remove percentage value */
-  width: 200px; /* Set an explicit width */
+  transform: translateX(-50%);
+  width: 80vw; /* Set width relative to viewport width */
+  max-width: 200px; /* Set a maximum width */
   display: none;
 }
 
