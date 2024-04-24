@@ -24,7 +24,7 @@ body {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 40%;
+  max-width: 20%; /* Adjust this value to make the image smaller */
   display: none;
 }
 
