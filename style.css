@@ -15,7 +15,7 @@ body {
 }
 
 #image {
-  max-width: 100%; /* Set maximum width to 100% of its container */
+  max-width: 400px; /* Set maximum width to 400 pixels */
   height: auto; /* Allow the height to adjust proportionally */
 }
 
